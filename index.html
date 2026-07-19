@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home · Md. Abdullah Al Mamun</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark shadow-lg py-2">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+      <span class="brand-icon">
+        <i class="bi bi-code-square"></i>
+      </span>
+      <span class="brand-text">AAM</span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="service.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- ======== PAGE CONTENT ======== -->
+  <main>
+    <!-- 1. Carousel banner slider -->
+    <section id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background: linear-gradient(135deg, #0d6efd, #0a58ca);">
+          <div class="container d-flex align-items-center justify-content-center vh-50" style="min-height: 350px;">
+            <div class="text-center text-white">
+              <h1 class="display-4 fw-bold">Hi, I'm Abdullah</h1>
+              <p class="lead">CS Graduate · ML Enthusiast · Full-Stack Developer</p>
+              <a href="contact.html" class="btn btn-light btn-lg mt-3">Let's Talk</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background: linear-gradient(135deg, #6610f2, #4b0e9e);">
+          <div class="container d-flex align-items-center justify-content-center vh-50" style="min-height: 350px;">
+            <div class="text-center text-white">
+              <h2 class="display-5 fw-semibold">BSc in CSE @ BRAC University</h2>
+              <p class="lead">CGPA 3.41 · 2022-2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background: linear-gradient(135deg, #198754, #0f6848);">
+          <div class="container d-flex align-items-center justify-content-center vh-50" style="min-height: 350px;">
+            <div class="text-center text-white">
+              <h2 class="display-5 fw-semibold">End-to-End Encrypted Chat App</h2>
+              <p class="lead">RSA · ECC · Socket.io · MongoDB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <!-- 2. About Me -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-md-6">
+            <img src="./IMG-20221114-WA0010~2.jpg" alt="Abdullah" class="img-fluid rounded-4 shadow" loading="lazy">
+          </div>
+          <div class="col-md-6">
+            <h2 class="fw-bold">About Me</h2>
+            <p class="lead">Motivated CS graduate with strong foundation in programming, ML, and data analysis.</p>
+            <p class="justified-text">I'm Md. Abdullah Al Mamun, recently graduated with a BSc in CSE at BRAC University. I love building secure, user-friendly applications and exploring blockchain & cryptography. I've worked on end-to-end encrypted chat, 3D games, and full-stack projects.</p>
+            <a href="about.html" class="btn btn-primary">More about me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Career Mission & Vision -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3><i class="bi bi-rocket-takeoff text-primary me-2"></i> Mission</h3>
+                <p>To leverage technology for impactful solutions, continuously learn, and contribute to open-source communities while building secure, scalable software.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3><i class="bi bi-eye text-primary me-2"></i> Vision</h3>
+                <p>Become a leading technologist who bridges the gap between research and real-world applications, especially in AI, blockchain, and digital privacy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Service List -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">What I Offer</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <i class="bi bi-code-square display-4 text-primary"></i>
+              <h4 class="mt-3">Web Development</h4>
+              <p>Responsive, modern websites using HTML5, CSS3, Bootstrap, Tailwind, and JavaScript.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <i class="bi bi-robot display-4 text-primary"></i>
+              <h4 class="mt-3">AI & ML</h4>
+              <p>Data preprocessing, model training, and deployment using Python, Scikit-learn, Pandas.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow text-center p-4">
+              <i class="bi bi-shield-lock display-4 text-primary"></i>
+              <h4 class="mt-3">Secure Apps</h4>
+              <p>End-to-end encryption, authentication, and secure system design (RSA, ECC, JWT).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Client Feedback -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">Client Feedback</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm p-4">
+              <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></p>
+              <p>"Abdullah built a stunning portfolio for me. Very professional and fast!"</p>
+              <h6 class="fw-bold">— Rahim H.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm p-4">
+              <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i></p>
+              <p>"Great communication, delivered the encrypted chat demo on time. Highly recommend."</p>
+              <h6 class="fw-bold">— Sarah K.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm p-4">
+              <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></p>
+              <p>"His ML project helped us analyze customer data. Very skilled and reliable."</p>
+              <h6 class="fw-bold">— Tanvir A.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5><i class="bi bi-person-circle me-2"></i>Md. Abdullah Al Mamun</h5>
+          <p><i class="bi bi-envelope"></i> aalmamun871@gmail.com · <i class="bi bi-phone"></i> +880 1521-799483</p>
+          <p><i class="bi bi-geo-alt"></i> 1/16A Gobindapur, Donia, Jatrabari, Dhaka-1236</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-1"><span id="liveDateTime" class="badge bg-primary bg-opacity-25 p-2"></span></p>
+          <div>
+            <a href="https://www.linkedin.com/in/aalmamunbd/" class="text-white me-3" target="_blank"><i class="bi bi-linkedin fs-5"></i></a>
+            <a href="https://github.com/aam-bd" class="text-white me-3" target="_blank"><i class="bi bi-github fs-5"></i></a>
+            <a href="https://x.com/aalmamun78" class="text-white"><i class="bi bi-twitter-x fs-5"></i></a>
+          </div>
+          <p class="mt-2 small">&copy; 2026 Abdullah Al Mamun</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

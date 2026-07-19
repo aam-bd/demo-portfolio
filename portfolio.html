@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark shadow-lg py-2">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <span class="brand-icon">
+          <i class="bi bi-code-square"></i>
+        </span>
+        <span class="brand-text">AAM</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="service.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- a. Page Title -->
+    <section class="page-title-section py-5 bg-primary text-white text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">📁 Portfolio</h1>
+        <p class="lead">My projects, education, and certifications.</p>
+      </div>
+    </section>
+
+    <!-- b. Personal Information - Redesigned -->
+    <section class="py-5 personal-info-section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">👤 Personal Info</h2>
+          <div class="divider-modern mx-auto"></div>
+        <!-- </div> -->
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-10 col-lg-8">
+            <div class="personal-info-card">
+              <div class="row g-0 align-items-center">
+                <div class="col-md-3 text-center">
+                  <div class="avatar-wrapper">
+                    <img src="./IMG-20221114-WA0010~2.jpg" alt="Abdullah" class="avatar-img">
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="info-grid">
+                    <div class="info-item">
+                      <i class="bi bi-person-fill text-primary"></i>
+                      <span><strong>Md. Abdullah Al Mamun</strong></span>
+                    </div>
+                    <div class="info-item">
+                      <i class="bi bi-envelope text-primary"></i>
+                      <span>aalmamun871@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                      <i class="bi bi-phone text-primary"></i>
+                      <span>+880 1521-799483</span>
+                    </div>
+                    <div class="info-item">
+                      <i class="bi bi-geo-alt text-primary"></i>
+                      <span>Dhaka, Bangladesh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- c. Education - Horizontal Cards -->
+    <section class="py-5 education-section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">🎓 Education</h2>
+          <div class="divider-modern mx-auto"></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="edu-card horizontal-card">
+              <div class="card-icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-badge">2022-2026</div>
+                <h4>BRAC University, Dhaka</h4>
+                <p class="degree">BSc in Computer Science & Engineering</p>
+                <div class="card-meta">
+                  <span class="meta-tag"><i class="bi bi-star-fill"></i> CGPA 3.41/4.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="edu-card horizontal-card">
+              <div class="card-icon">
+                <i class="bi bi-book"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-badge">2020</div>
+                <h4>Darunnazat Siddikia Kamil Madrasah</h4>
+                <p class="degree">Alim (HSC Equivalent)</p>
+                <div class="card-meta">
+                  <span class="meta-tag"><i class="bi bi-star-fill"></i> GPA 5.0/5.0</span>
+                  <span class="meta-tag award"><i class="bi bi-trophy"></i> Merit Scholarship</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- d. Special Skills -->
+    <section class="py-5 special-skills-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5 mb-2">⚡ Special Skills</h2>
+          <p class="text-muted fs-5">Core competencies that set me apart</p>
+          <div class="divider-glow mx-auto"></div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Skill 1 -->
+          <div class="col-md-4 col-lg-4">
+            <div class="special-skill-card" style="--gradient-start: #667eea; --gradient-end: #764ba2;">
+              <div class="skill-glow"></div>
+              <div class="skill-number">01</div>
+              <div class="skill-icon-wrapper">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <h4>End-to-End Encryption</h4>
+              <p>Secure communication with military-grade encryption protocols</p>
+            </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="col-md-4 col-lg-4">
+            <div class="special-skill-card" style="--gradient-start: #f093fb; --gradient-end: #f5576c;">
+              <div class="skill-glow"></div>
+              <div class="skill-number">02</div>
+              <div class="skill-icon-wrapper">
+                <i class="bi bi-key"></i>
+              </div>
+              <h4>RSA / ECC Cryptography</h4>
+              <p>Advanced public-key cryptography for secure data transmission</p>
+            </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="col-md-4 col-lg-4">
+            <div class="special-skill-card" style="--gradient-start: #4facfe; --gradient-end: #00f2fe;">
+              <div class="skill-glow"></div>
+              <div class="skill-number">03</div>
+              <div class="skill-icon-wrapper">
+                <i class="bi bi-stack"></i>
+              </div>
+              <h4>Full-Stack (MERN)</h4>
+              <p>End-to-end web development with MongoDB, Express, React, Node.js</p>
+            </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="col-md-4 col-lg-4">
+            <div class="special-skill-card" style="--gradient-start: #43e97b; --gradient-end: #38f9d7;">
+              <div class="skill-glow"></div>
+              <div class="skill-number">04</div>
+              <div class="skill-icon-wrapper">
+                <i class="bi bi-robot"></i>
+              </div>
+              <h4>Machine Learning (Python)</h4>
+              <p>Building intelligent models with Scikit-learn, Pandas, and NumPy</p>
+            </div>
+          </div>
+
+          <!-- Skill 5 -->
+          <div class="col-md-4 col-lg-4">
+            <div class="special-skill-card" style="--gradient-start: #fa709a; --gradient-end: #fee140;">
+              <div class="skill-glow"></div>
+              <div class="skill-number">05</div>
+              <div class="skill-icon-wrapper">
+                <i class="bi bi-controller"></i>
+              </div>
+              <h4>OpenGL / 3D Game Dev</h4>
+              <p>Immersive 3D experiences with Python, OpenGL, and GLUT</p>
+            </div>
+          </div>
+
+          <!-- Skill 6 -->
+          <div class="col-md-4 col-lg-4">
+            <div class="special-skill-card" style="--gradient-start: #a18cd1; --gradient-end: #fbc2eb;">
+              <div class="skill-glow"></div>
+              <div class="skill-number">06</div>
+              <div class="skill-icon-wrapper">
+                <i class="bi bi-link-45deg"></i>
+              </div>
+              <h4>Solidity / Blockchain</h4>
+              <p>Smart contract development and decentralized application design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- e. Training Certification (with Bootstrap Modal) -->
+    <section class="py-5 certification-section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">📜 Certifications</h2>
+          <div class="divider-modern mx-auto"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="cert-card">
+              <div class="cert-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="cert-content">
+                <h5>AI Engineer for Data Scientists Associate</h5>
+                <p class="cert-meta">DataCamp · June 2026</p>
+                <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#certModal">
+                  <i class="bi bi-eye"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="certModal" tabindex="-1" aria-labelledby="certModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="certModalLabel">Certificate Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>AI Engineer for Data Scientists Associate</strong> – DataCamp (June 2026)</p>
+            <ul>
+              <li>Machine Learning, Data Preprocessing, Data Analysis</li>
+              <li>Model Deployment (Basic MLOps)</li>
+              <li>AI Ethics, Data Governance, Compliance</li>
+            </ul>
+            <a href="https://www.datacamp.com/certificate/AEDS0014126168848" target="_blank" class="btn btn-sm btn-outline-primary">Verify Certificate</a>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- f. Working Experience - Horizontal Cards -->
+    <section class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">💼 Experience</h2>
+      <div class="divider-modern mx-auto"></div>
+      <p class="text-muted mt-2">My professional journey and contributions</p>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Experience 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="exp-card-horizontal">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg, #0d6efd, #6610f2);">
+            <i class="bi bi-robot"></i>
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-badge">Finance & Management</span>
+            <h4>Robotics Club of BRAC University (ROBU)</h4>
+            <ul class="exp-details">
+              <li><i class="bi bi-check-circle-fill"></i> Managed sponsorships and negotiated deliverables</li>
+              <li><i class="bi bi-check-circle-fill"></i> Nurtured relationships with corporate stakeholders</li>
+              <li><i class="bi bi-check-circle-fill"></i> Expanded financial network for the club</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="exp-card-horizontal">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg, #198754, #0f6848);">
+            <i class="bi bi-person-workspace"></i>
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-badge">Teaching Support</span>
+            <h4>Independent Tutor</h4>
+            <ul class="exp-details">
+              <li><i class="bi bi-check-circle-fill"></i> Prepared class notes and study materials</li>
+              <li><i class="bi bi-check-circle-fill"></i> Tutored students in academic coursework</li>
+              <li><i class="bi bi-check-circle-fill"></i> Provided guidelines for exam preparation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="exp-card-horizontal">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg, #dc3545, #e35d6a);">
+            <i class="bi bi-heart-hand"></i>
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-badge">Volunteer</span>
+            <h4>As Sunnah Foundation</h4>
+            <ul class="exp-details">
+              <li><i class="bi bi-check-circle-fill"></i> Participated in various community projects</li>
+              <li><i class="bi bi-check-circle-fill"></i> Actively involved in voluntary activities</li>
+              <li><i class="bi bi-check-circle-fill"></i> Supported project organization and execution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5><i class="bi bi-person-circle me-2"></i>Md. Abdullah Al Mamun</h5>
+          <p><i class="bi bi-envelope"></i> aalmamun871@gmail.com · <i class="bi bi-phone"></i> +880 1521-799483</p>
+          <p><i class="bi bi-geo-alt"></i> 1/16A Gobindapur, Donia, Jatrabari, Dhaka-1236</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-1"><span id="liveDateTime" class="badge bg-primary bg-opacity-25 p-2"></span></p>
+          <div>
+            <a href="https://www.linkedin.com/in/aalmamunbd/" class="text-white me-3" target="_blank"><i class="bi bi-linkedin fs-5"></i></a>
+            <a href="https://github.com/aam-bd" class="text-white me-3" target="_blank"><i class="bi bi-github fs-5"></i></a>
+            <a href="https://x.com/aalmamun78" class="text-white"><i class="bi bi-twitter-x fs-5"></i></a>
+          </div>
+          <p class="mt-2 small">&copy; 2026 Abdullah Al Mamun</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
