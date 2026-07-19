@@ -1,8 +1,8 @@
 # Personal Portfolio Website
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-0d6efd?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-0d6efd?style=for-the-badge&logo=vercel&logoColor=white)](https://aam-bd.github.io/demo-portfolio/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
 
 A modern, fully responsive personal portfolio website built with **Bootstrap 5**, **HTML5**, **CSS3**, and **JavaScript**. This website serves as a comprehensive professional showcase including personal information, portfolio projects, services, and contact features.
 
@@ -88,6 +88,7 @@ A modern, fully responsive personal portfolio website built with **Bootstrap 5**
 ```text
 portfolio-website/
 │
+├── IMG-20221114-WA0010~2.jpg
 ├── index.html
 ├── about.html
 ├── portfolio.html
@@ -112,29 +113,12 @@ portfolio-website/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/aam-bd/personal-portfolio.git
-cd personal-portfolio
+git clone https://github.com/aam-bd/demo-portfolio.git
 ```
 
 ### Run Project
 
 Simply open **index.html** in your browser or use VS Code Live Server.
-
----
-
-## 🚀 Development Server
-
-Using Python:
-
-```bash
-python -m http.server 8000
-```
-
-Using Node.js:
-
-```bash
-npx live-server
-```
 
 ---
 
@@ -156,6 +140,8 @@ npx live-server
 ```html
 <a href="https://linkedin.com/in/your-profile" target="_blank"></a>
 <a href="https://github.com/your-username" target="_blank"></a>
+<a href="https://x.com/your-profile" target="_blank"></a>
+
 ```
 
 ### Avatar
@@ -252,9 +238,7 @@ git push origin feature/amazing-feature
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
-
-See the [LICENSE](LICENSE) file for details.
+This project is open source. You can use it as you wish for any beneficial purpose.
 
 ---
 
@@ -278,27 +262,9 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📸 Screenshots
-
-### Home
-
-![Home](screenshots/home.png)
-
-### Portfolio
-
-![Portfolio](screenshots/portfolio.png)
-
-### Contact
-
-![Contact](screenshots/contact.png)
-
-> **Note:** Replace the screenshots above with your own project screenshots.
-
----
-
 ## 🚀 Live Demo
 
-**Website:** https://your-portfolio-url.vercel.app
+**Website:** https://aam-bd.github.io/demo-portfolio/
 
 ---
 
